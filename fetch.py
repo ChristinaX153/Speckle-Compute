@@ -9,7 +9,7 @@ def send_to_compute():
     compute_rhino3d.Util.apiKey = "SpeckleCompute02"
     send_to_compute_stream = "https://macad.speckle.xyz/streams/26d9a49958"
     receive_from_compute_stream = "https://macad.speckle.xyz/streams/a63c4e60ed"
-    gh_definition = "example.ghx"
+    gh_definition = "120325_Hyper a_collab.gh"
 
     gh_data = open(gh_definition, mode="r", encoding="utf-8-sig").read()
     data_bytes = gh_data.encode("utf-8")
